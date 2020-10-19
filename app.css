@@ -1,5 +1,5 @@
 .ex_html{
-    font-size: 16px;
+    font-size: 14px;
 
     @media screen and (min-width: 768px){
         font-size: 16px
@@ -17,15 +17,31 @@
 .ex_h1{
     font-size: 2em;
     text-align: center;
+    color: rgba(79, 31, 113, 0.938);
+}
+.ex_h1:hover {
+    background:rgba(79, 31, 113, 0.356);
+    color: whitesmoke;
 }
 
 .chrome_div{
-    width: 600px; height: auto;
+    width: 400px; height: auto;
     background-color: whitesmoke;
 }
 .bFont{
     font-weight: 600;
     background-color: rgba(79, 31, 113, 0.938);
+    color: whitesmoke;
+   
+}
+.bFont1{
+    font-weight: 600;
+    background-color: whitesmoke;
+    color: rgba(79, 31, 113, 0.938);
+    justify-content: center;
+}
+.bFont1:hover {
+    background:rgba(79, 31, 113, 0.938);
     color: whitesmoke;
 }
 .ph{
@@ -39,3 +55,7 @@ th{
     padding-left: 20mm;
     width: auto;
 }
+.link{
+    color: rgba(111, 47, 160, 0.938);
+}
+
