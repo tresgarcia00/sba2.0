@@ -1,0 +1,44 @@
+
+Create a directory folder: 
+cd cryptochain/
+
+Install NPM
+npm init -y
+
+Install Jest V23.6.0
+npm i jest@23.6.0 --save-dev
+
+Testing: 
+npm test
+
+Review JSON file. 
+cat package.json
+
+Building the block: 
+Time Stamp: (Date object down to millsec, atribute lastHash, data (Ledger or whatever), hash(*For the next block))
+
+Create the 1st Gennis block:
+
+Hex to Binary: 
+npm i hex-to-binary@1.0.1 --save
+
+JSON formater - chrome extention
+
+Express install: npm i express@4.16.3 --save
+
+Nodemon install: npm i nodemon@1.18.4
+
+Redis: Start Server
+redis-server 
+
+Redis: Install alocal dependancy (global instilation: npm install -g npm)
+npm i redis@2.8.0 --save
+
+Check Redis: 
+$ redis-cli ping
+
+Once chain is up: You will need to run sepearte local host (port) to communicate between block chain hosts. 
+Save BC across different enviornments: (Win / OS / Linux) = npm i cross-env@5.2.0 --save-dev
+
+Peer port: 
+npm run dev-peer
